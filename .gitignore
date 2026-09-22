@@ -1,0 +1,18 @@
+# 运行时配置（含上游 api_key / admin_key，勿提交）
+config.json
+
+# 构建产物
+*.exe
+desktop/dist/
+debug
+*.test
+*.out
+
+# 日志
+*.log
+
+# IDE / 系统
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

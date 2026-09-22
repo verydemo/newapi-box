@@ -1,0 +1,18 @@
+{
+  "listen": ":18888",
+  "admin_key": "",
+  "verbose": true,
+  "claude_default_max_tokens": 8192,
+  "upstream": {
+    "format": "openai",
+    "base_url": "https://api.openai.com",
+    "api_key": "sk-REPLACE-ME",
+    "timeout": "5m",
+    "model_map": {
+      "claude-sonnet-4-5": "gpt-4o",
+      "gpt-4o": "gpt-4o-mini"
+    },
+    "headers": {},
+    "paths": {}
+  }
+}
