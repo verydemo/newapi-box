@@ -1,7 +1,7 @@
-# 打包工作流：Windows 桌面版 + 各平台 CLI。
+# 打包工作流：Windows 桌面版 + Windows CLI。
 #
-# - Windows：桌面版 exe（WebView2 壳，图标来自仓库内 resource.syso）+ CLI exe
-# - macOS：CLI 二进制（桌面壳依赖 Windows COM，无法跨平台编译）
+# - 桌面版 exe（WebView2 壳，图标来自仓库内 resource.syso）
+# - CLI exe（无窗口，参数方式启动）
 # - 打 tag（v*）时额外创建 GitHub Release 并附上产物；其余触发只上传 artifact
 
 name: build
@@ -16,10 +16,7 @@ permissions:
 
 jobs:
   build:
-    strategy:
-      matrix:
-        os: [windows-latest, macos-latest]
-    runs-on: ${{ matrix.os }}
+    runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
 
@@ -27,9 +24,7 @@ jobs:
         with:
           go-version: "1.25"
 
-      # Windows：桌面版（GUI）+ 命令行版
-      - name: Build Windows
-        if: runner.os == 'Windows'
+      - name: Build
         shell: bash
         run: |
           mkdir -p dist
@@ -38,20 +33,10 @@ jobs:
           go build -trimpath -ldflags="-s -w" \
             -o dist/newapi-box-windows-cli-amd64.exe .
 
-      # macOS：仅命令行版，双架构
-      - name: Build macOS
-        if: runner.os == 'macOS'
-        run: |
-          mkdir -p dist
-          GOOS=darwin GOARCH=arm64 go build -trimpath -ldflags="-s -w" \
-            -o dist/newapi-box-darwin-arm64 .
-          GOOS=darwin GOARCH=amd64 go build -trimpath -ldflags="-s -w" \
-            -o dist/newapi-box-darwin-amd64 .
-
       # 每次构建都可在 Actions 页面下载
       - uses: actions/upload-artifact@v4
         with:
-          name: newapi-box-${{ runner.os }}
+          name: newapi-box-windows
           path: dist/
 
       # 打 tag 时发布 Release
