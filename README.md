@@ -147,4 +147,4 @@ go build -trimpath -ldflags="-s -w" -o newapi-box .
 ./desktop/build.sh
 ```
 
-或直接打 tag 推送，GitHub Actions 会自动构建 Windows 桌面版与 macOS/Linux CLI 并发布 Release（见 [.github/workflows/build.yml](.github/workflows/build.yml)）。
+或直接打 tag 推送，GitHub Actions 会自动构建 Windows 桌面版与 CLI 并发布 Release（见 [.github/workflows/build.yml](.github/workflows/build.yml)）。
