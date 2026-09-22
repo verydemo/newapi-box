@@ -1,6 +1,6 @@
 package relayconvert
 
-import relaymedia "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/media"
+import relaymedia "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/media"
 
 type MediaResolver = relaymedia.MediaResolver
 

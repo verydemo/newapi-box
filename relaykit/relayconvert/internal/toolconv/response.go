@@ -6,9 +6,9 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 // InspectResponse reports protocol information that the current response

@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/reasonmap"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	sharedclaude "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/claude"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/reasonmap"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	sharedclaude "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/claude"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 )
 
 func generateStopBlock(index int) *dto.ClaudeResponse {

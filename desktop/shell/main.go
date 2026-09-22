@@ -23,9 +23,9 @@ import (
 
 	webview2 "github.com/jchv/go-webview2"
 
-	"github.com/zhangjl/newapi-box/internal/admin"
-	"github.com/zhangjl/newapi-box/internal/config"
-	"github.com/zhangjl/newapi-box/internal/proxy"
+	"github.com/verydemo/newapi-box/internal/admin"
+	"github.com/verydemo/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/proxy"
 )
 
 // 桌面版固定绑回环：控制台不对外暴露，要对外服务请用命令行版。

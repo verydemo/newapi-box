@@ -3,8 +3,8 @@ package reasoning
 import (
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

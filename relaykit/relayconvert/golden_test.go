@@ -16,9 +16,9 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	"github.com/verydemo/newapi-box/relaykit/types"
 	"github.com/stretchr/testify/require"
 )
 

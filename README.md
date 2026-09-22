@@ -130,3 +130,21 @@ go test ./...
 
 - [new-api](https://github.com/QuantumNous/new-api) —— `relaykit/` 转换内核的代码来源
 - 依赖：[tidwall/gjson](https://github.com/tidwall/gjson)、[samber/lo](https://github.com/samber/lo)、[jchv/go-webview2](https://github.com/jchv/go-webview2) 等，详见 [go.mod](go.mod)
+
+## 开源协议
+
+本项目基于 [AGPL-3.0](LICENSE) 发布。
+
+`relaykit/` 转换内核抽取自 [new-api](https://github.com/QuantumNous/new-api)（AGPL-3.0），因此整个项目以同等协议开源；`internal/` 服务层、`desktop/` 桌面壳为原创实现，同样遵循 AGPL-3.0。
+
+## 构建
+
+```bash
+# CLI 版（跨平台）
+go build -trimpath -ldflags="-s -w" -o newapi-box .
+
+# Windows 桌面版（GUI）
+./desktop/build.sh
+```
+
+或直接打 tag 推送，GitHub Actions 会自动构建 Windows 桌面版与 macOS/Linux CLI 并发布 Release（见 [.github/workflows/build.yml](.github/workflows/build.yml)）。

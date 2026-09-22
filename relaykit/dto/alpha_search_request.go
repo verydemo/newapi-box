@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"net/http"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 // AlphaSearchRequest is the Codex standalone web search request.

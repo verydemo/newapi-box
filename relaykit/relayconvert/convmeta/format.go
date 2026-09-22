@@ -1,8 +1,8 @@
 package convmeta
 
 import (
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 // GuessRelayFormatFromRequest infers the relay format from a request DTO's

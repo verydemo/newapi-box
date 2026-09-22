@@ -27,9 +27,9 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/zhangjl/newapi-box/internal/admin"
-	"github.com/zhangjl/newapi-box/internal/config"
-	"github.com/zhangjl/newapi-box/internal/proxy"
+	"github.com/verydemo/newapi-box/internal/admin"
+	"github.com/verydemo/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/proxy"
 )
 
 func main() {

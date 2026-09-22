@@ -16,7 +16,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 // Upstream is one configured target the converter can forward converted

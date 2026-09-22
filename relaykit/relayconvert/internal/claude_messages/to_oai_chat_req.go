@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/reasoning"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/reasoning"
 )
 
 const (

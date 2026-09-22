@@ -10,10 +10,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 
-	"github.com/zhangjl/newapi-box/internal/config"
-	"github.com/zhangjl/newapi-box/internal/proxy"
+	"github.com/verydemo/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/proxy"
 )
 
 // upstreamStub answers both the relay path and the connectivity probe, and

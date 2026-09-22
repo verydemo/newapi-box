@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhangjl/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/config"
 )
 
 // runtime is an immutable snapshot of everything a request needs to reach the

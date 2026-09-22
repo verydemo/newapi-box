@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	sharedclaude "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/claude"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	sharedclaude "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/claude"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 )
 
 const responsesEventOutputTextDone = "response.output_text.done"

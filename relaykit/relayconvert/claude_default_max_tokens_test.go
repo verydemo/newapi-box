@@ -4,12 +4,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	sharedclaude "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/claude"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/reasoning"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	sharedclaude "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/claude"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/reasoning"
+	"github.com/verydemo/newapi-box/relaykit/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

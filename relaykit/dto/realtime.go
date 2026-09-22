@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/zhangjl/newapi-box/relaykit/types"
+import "github.com/verydemo/newapi-box/relaykit/types"
 
 const (
 	RealtimeEventTypeError              = "error"

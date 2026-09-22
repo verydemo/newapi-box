@@ -3,8 +3,8 @@ package protocol
 import (
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 func TestMatchInbound(t *testing.T) {

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/types"
 	"github.com/samber/lo"
 )
 

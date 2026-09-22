@@ -3,7 +3,7 @@ package dto
 import (
 	"encoding/json"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 type OpenAIResponsesCompactionResponse struct {

@@ -5,13 +5,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/convdiag"
-	relaymedia "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/media"
-	sharedclaude "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/claude"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/reasoning"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/internal/convdiag"
+	relaymedia "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/media"
+	sharedclaude "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/claude"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/reasoning"
 )
 
 func convertOpenAIResponsesRequestToClaudeMessages(c context.Context, info convmeta.Meta, request any) (any, error) {

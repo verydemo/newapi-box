@@ -21,13 +21,13 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	"github.com/verydemo/newapi-box/relaykit/types"
 
-	"github.com/zhangjl/newapi-box/internal/config"
-	"github.com/zhangjl/newapi-box/internal/protocol"
+	"github.com/verydemo/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/protocol"
 )
 
 // maxRequestBody bounds client request bodies.

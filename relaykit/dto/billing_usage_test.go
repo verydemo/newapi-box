@@ -3,7 +3,7 @@ package dto
 import (
 	"testing"
 
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

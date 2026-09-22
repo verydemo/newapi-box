@@ -3,12 +3,12 @@ package relayconvert
 import (
 	"fmt"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	claudemessages "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/claude_messages"
-	geminichat "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/gemini_chat"
-	oaichat "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/oai_chat"
-	oairesponses "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/oai_responses"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	claudemessages "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/claude_messages"
+	geminichat "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/gemini_chat"
+	oaichat "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/oai_chat"
+	oairesponses "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/oai_responses"
 )
 
 type ClaudeResponseInfo = claudemessages.ClaudeResponseInfo

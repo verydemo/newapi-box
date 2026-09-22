@@ -3,7 +3,7 @@ package oaichat
 import (
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/dto"
 	"github.com/samber/lo"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

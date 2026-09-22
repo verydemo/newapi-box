@@ -3,7 +3,7 @@ package main
 import (
 	"testing"
 
-	"github.com/zhangjl/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/config"
 )
 
 func TestResolveListen(t *testing.T) {

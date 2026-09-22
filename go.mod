@@ -1,4 +1,4 @@
-module github.com/zhangjl/newapi-box
+module github.com/verydemo/newapi-box
 
 go 1.25.1
 

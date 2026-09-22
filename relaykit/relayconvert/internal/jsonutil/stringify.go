@@ -3,7 +3,7 @@ package jsonutil
 import (
 	"fmt"
 
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 )
 
 func ToJSONString(v interface{}) string {

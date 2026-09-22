@@ -9,11 +9,11 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert"
+	"github.com/verydemo/newapi-box/relaykit/types"
 
-	"github.com/zhangjl/newapi-box/internal/protocol"
+	"github.com/verydemo/newapi-box/internal/protocol"
 )
 
 // maxUpstreamResponseBody bounds a non-streaming upstream response.

@@ -8,12 +8,12 @@ import (
 
 	"context"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	relaymedia "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/media"
-	sharedgemini "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/gemini"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/reasoning"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	relaymedia "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/media"
+	sharedgemini "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/gemini"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/reasoning"
 )
 
 func OpenAIChatRequestToGeminiGenerateContent(c context.Context, textRequest dto.GeneralOpenAIRequest, info convmeta.Meta) (*dto.GeminiChatRequest, error) {

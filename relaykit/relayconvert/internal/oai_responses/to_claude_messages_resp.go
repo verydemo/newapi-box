@@ -6,10 +6,10 @@ import (
 	"strings"
 	"unicode/utf8"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/reasonmap"
-	sharedclaude "github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/shared/claude"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/reasonmap"
+	sharedclaude "github.com/verydemo/newapi-box/relaykit/relayconvert/internal/shared/claude"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 )
 
 // ConvertedThinkingSignature 是跨协议转换产出 thinking 块时的占位签名。

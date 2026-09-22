@@ -9,9 +9,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 
-	"github.com/zhangjl/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/config"
 )
 
 // openAIChatCompletionBody is a minimal non-streaming OpenAI Chat reply.

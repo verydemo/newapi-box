@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/convmeta"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/convdiag"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/internal/jsonutil"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert/reasoning"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/convmeta"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/internal/convdiag"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/internal/jsonutil"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert/reasoning"
 )
 
 func GeminiGenerateContentRequestToOpenAIChat(ctx context.Context, geminiRequest *dto.GeminiChatRequest, info convmeta.Meta) (*dto.GeneralOpenAIRequest, error) {

@@ -3,7 +3,7 @@ package gemini
 import (
 	"strings"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
+	"github.com/verydemo/newapi-box/relaykit/dto"
 )
 
 var geminiOpenAPISchemaAllowedFields = map[string]struct{}{

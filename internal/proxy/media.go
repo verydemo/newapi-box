@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/relayconvert"
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/relayconvert"
+	"github.com/verydemo/newapi-box/relaykit/types"
 )
 
 // maxMediaBytes bounds how much of a remote image the converter will pull into

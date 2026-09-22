@@ -15,10 +15,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/types"
+	"github.com/verydemo/newapi-box/relaykit/types"
 
-	"github.com/zhangjl/newapi-box/internal/config"
-	"github.com/zhangjl/newapi-box/internal/proxy"
+	"github.com/verydemo/newapi-box/internal/config"
+	"github.com/verydemo/newapi-box/internal/proxy"
 )
 
 // probeTimeout bounds a reachability check.

@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/zhangjl/newapi-box/relaykit/dto"
-	kitutil "github.com/zhangjl/newapi-box/relaykit/relayconvert/kitutil"
+	"github.com/verydemo/newapi-box/relaykit/dto"
+	kitutil "github.com/verydemo/newapi-box/relaykit/relayconvert/kitutil"
 )
 
 const (
