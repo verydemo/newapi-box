@@ -22,6 +22,17 @@ upstream:        一个已配置的协议，可在运行时切换
 客户端协议 --decode--> DTO --relaykit 转换--> DTO --encode--> 上游
 ```
 
+## 支持矩阵
+
+入站和出站都支持这四种协议，任意组合：
+
+| 入 \ 出 | OpenAI Chat | OpenAI Responses | Claude Messages | Gemini |
+|---|:---:|:---:|:---:|:---:|
+| **OpenAI Chat** | 直通 | ✓ | ✓ | ✓ |
+| **OpenAI Responses** | ✓ | 直通 | ✓ | ✓ |
+| **Claude Messages** | ✓ | ✓ | 直通 | ✓ |
+| **Gemini** | ✓ | ✓ | ✓ | 直通 |
+
 ## 特性
 
 - **4 种客户端协议并存**，按请求路径自动识别：
