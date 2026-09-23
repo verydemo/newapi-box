@@ -158,4 +158,4 @@ go build -trimpath -ldflags="-s -w" -o newapi-box .
 ./desktop/build.sh
 ```
 
-或直接打 tag 推送，GitHub Actions 会自动构建 Windows 桌面版与 CLI 并发布 Release（见 [.github/workflows/build.yml](.github/workflows/build.yml)）。
+或直接打 tag 推送，GitHub Actions 会自动构建 Windows 桌面版与 CLI 并发布 Release（见 [.github/workflows/build.yml](.github/workflows/build.yml)）。另外，每次 push 到 main 分支会自动构建并更新滚动的开发版 Release（tag `latest`，标记为 prerelease，见 [.github/workflows/dev-release.yml](.github/workflows/dev-release.yml)）。
