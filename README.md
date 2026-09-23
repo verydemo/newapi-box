@@ -2,6 +2,8 @@
 
 一个轻量的 **LLM API 协议转换网关**：对外同时暴露 4 种客户端协议，请求经内核转换后转发给**唯一一个可随时切换的上游**，并内置 Web 控制台，改配置无需重启、不丢在途流。
 
+![GitHub 仓库](docs/images/github-releases.png)
+
 > **内核来源说明**：本项目的协议转换内核 [`relaykit/`](relaykit/)（DTO 定义、转换注册表、各协议转换器）源自开源项目 [new-api](https://github.com/QuantumNous/new-api) 的 relay 代码，经抽取、裁剪和重构后形成独立转换内核；`internal/` 下的 HTTP 服务、控制台、配置存储与 `desktop/` 桌面壳为本项目原创实现。
 
 ## 它解决什么问题

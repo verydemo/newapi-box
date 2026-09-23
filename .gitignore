@@ -11,6 +11,9 @@ debug
 # 日志
 *.log
 
+# WorkBuddy 工作区数据
+.workbuddy/
+
 # IDE / 系统
 .idea/
 .vscode/
