@@ -49,6 +49,14 @@ jobs:
           go build -trimpath -ldflags="-s -w" \
             -o dist/newapi-box-windows-cli-amd64.exe .
 
+      # 精简版：upx 压缩桌面版（约省 60% 体积，个别杀软可能误报）
+      - name: Build minified
+        shell: bash
+        run: |
+          choco install upx -y --no-progress
+          cp dist/newapi-box-windows-amd64.exe dist/newapi-box-windows-min-amd64.exe
+          upx --best --lzma dist/newapi-box-windows-min-amd64.exe
+
       - name: Publish release
         uses: softprops/action-gh-release@v2
         with:
@@ -59,6 +67,7 @@ jobs:
             自动构建于 main 分支提交 ${{ github.sha }}。
 
             - `newapi-box-windows-amd64.exe`：桌面版（WebView2 壳）
+            - `newapi-box-windows-min-amd64.exe`：桌面版精简版（upx 压缩，个别杀软可能误报）
             - `newapi-box-windows-cli-amd64.exe`：命令行版
           generate_release_notes: true
           files: dist/*

@@ -146,9 +146,9 @@ go test ./...
 
 ## 开源协议
 
-本项目基于 [AGPL-3.0](LICENSE) 发布。
+本项目基于 [MIT](LICENSE) 协议发布。
 
-`relaykit/` 转换内核抽取自 [new-api](https://github.com/QuantumNous/new-api)（AGPL-3.0），因此整个项目以同等协议开源；`internal/` 服务层、`desktop/` 桌面壳为原创实现，同样遵循 AGPL-3.0。
+> 说明：`relaykit/` 转换内核的代码源自 [new-api](https://github.com/QuantumNous/new-api)（AGPL-3.0）。
 
 ## 构建
 
